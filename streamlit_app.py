@@ -8,7 +8,7 @@ st.image("1dc14417c4032a266dbacc8fe2dd05b0.jpg", width=200)
 
 st.tittle("Aplikasi Sederhana")
 st.header("Aplikasi Mengecek Nilai Genap/Ganjil")
-angka = st.number_input("Tulis sebuah Angka
+angka = st.number_input("Tulis sebuah Angka")
 
 if (angka % 2) == 0:
     st.write(f"(angka) adalah Bilangan Genap")
